@@ -80,13 +80,15 @@ Churn Prediction/
 
 ## 🧪 Run Locally
 
-### 1️⃣ Install dependencies
-```bash
+1️⃣ Install dependencies
 pip install -r requirements.txt
 2️⃣ Start FastAPI server
 uvicorn Notebook.app:app --reload
 3️⃣ Run Streamlit app
 streamlit run streamlit_app.py
+
+
+
 
 📊 Output
 
