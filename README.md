@@ -82,8 +82,10 @@ Churn Prediction/
 
 1️⃣ Install dependencies
 pip install -r requirements.txt
+
 2️⃣ Start FastAPI server
 uvicorn Notebook.app:app --reload
+
 3️⃣ Run Streamlit app
 streamlit run streamlit_app.py
 
@@ -93,16 +95,23 @@ streamlit run streamlit_app.py
 📊 Output
 
 Churn probability per customer
+
 High-risk customer identification
+
 Downloadable prediction CSV
+
 SHAP explainability (global + individual)
 
 🎯 Use Cases
 
 Telecom customer retention
+
 Subscription churn analysis
+
 Business decision support
+
 ML system deployment practice
+
 
 👩‍💻 Author
 
